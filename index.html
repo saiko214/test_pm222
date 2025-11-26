@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>РО 2.2 - 2.6: 3D-модельдеу және Дизайн Тесті</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="test-container">
+    <h1>🎨 3D-модельдеу және Дизайн Тесті 🛠️</h1>
+    <p>Сұрақ <span id="current-q-index">0</span> / <span id="total-q-count">0</span></p>
+
+    <div id="question-box">
+        <div id="question-text">Сұрақ мәтіні осы жерде болады...</div>
+        <div id="options-container">
+            </div>
+    </div>
+
+    <button id="submit-btn" onclick="submitAnswer()">Жауапты тексеру</button>
+    <button id="next-btn" onclick="nextQuestion()" style="display: none;">Келесі сұрақ</button>
+
+    <div id="result-box"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
